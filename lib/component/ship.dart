@@ -10,7 +10,6 @@ class Ship extends SpriteComponent with TapCallbacks{
   late Vector2 arah;
   double speed = 3.0;
 
-  @override
   Ship() {
     arah = Vector2(0, 0); // memberikan nilai awal arah, jika tidak diberi maka akan muncul error
     tujuan = position;
